@@ -1,0 +1,18 @@
+<!-- <p>Id : {{customerObj.custId}}</p>
+<p>Name : {{customerObj.custName}}</p>
+model to view
+<p><input type="text" name="custId" value="{{customerObj.custId}}"></p>
+<p><input type="text" name="custName" [value]="customerObj.custName"></p>
+
+ view to  model
+<p><input type="text" name="custId" (input)="customerObj.custId=$any($event.target).value"></p>
+<p><input type="text" name="custName" (input)="customerObj.custName=$any($event.target).value"></p>
+
+two way Binding
+<p><input type="text" name="custId" [(ngModel)]="customerObj.custId"></p>
+<p><input type="text" name="custName" [(ngModel)]="customerObj.custName"></p> -->
+
+<a routerLink="home">Home</a> |
+<a routerLink="about">About</a> |
+<a routerLink="contact">Contact</a>
+<router-outlet></router-outlet>
